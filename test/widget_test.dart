@@ -9,7 +9,8 @@ void main() {
     await tester.pumpWidget(const MkAbSportApp());
 
     // Verify that our app title or a key element is present.
-    expect(find.text('MkAbSport - Promotion du Sport'), findsOneWidget);
+    expect(find.text('MKAB SPORTS'), findsOneWidget);
+    expect(find.text('Joue, gère, réussis'), findsOneWidget);
     expect(find.text('Découvrez nos disciplines'), findsOneWidget);
 
     // Verify that some sports are listed.
